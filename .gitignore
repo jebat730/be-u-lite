@@ -21,3 +21,16 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Exclude logs and temporary files
+logs/
+*.log
+
+# Exclude database files
+*.sql
+
+# Ignore all hidden system files
+Thumbs.db
+
+# Ignore any files related to database configuration
+*.db
